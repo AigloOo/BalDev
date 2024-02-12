@@ -44,11 +44,3 @@
 * Tester les changements avant de les soumettre
 * Référencer les problèmes ou les discussions pertinents
 
-**Remarques:**
-
-* Ce n'est qu'une suggestion de mise en page. Vous pouvez l'adapter à vos besoins.
-* Assurez-vous de suivre les conventions de codage GitHub.
-* Utilisez un langage clair et concis dans votre documentation.
-* Soyez ouvert aux commentaires et aux suggestions de la communauté.
-
-**J'espère que cela vous aidera à démarrer votre projet GitHub.**
