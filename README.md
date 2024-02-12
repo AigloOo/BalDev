@@ -8,6 +8,11 @@
     * Informations complètes
     * Contribution collaborative
     * Plusieurs langages
+* **Comment ajouter des proprieter:**
+    * Forker le repo GitHub
+    * Créer une branche
+    * Ajouter ou modifier le fichier storage du fichier souhaiter
+    * Soumettre une pull request    
 * **Comment contribuer:**
     * Forker le repo GitHub
     * Créer une branche
