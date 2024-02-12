@@ -9,13 +9,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f6f1;
-    /* Fond légèrement orangé */
     color: #333;
 }
 
 header {
     background-color: rgb(3, 31, 44);
-    /* Orange vif pour l'en-tête */
     color: #fff;
     padding: 20px;
 }
@@ -64,7 +62,6 @@ input[type="text"] {
 
 .property-item:hover {
     background-color: #ffe0b2;
-    /* Surbrillance orange clair au survol */
 }
 
 .property-item h2 {
@@ -79,7 +76,6 @@ input[type="text"] {
 
 #propertyDetails {
     background-color: #fff;
-    /* Fond blanc pour les détails */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 5px;
@@ -87,10 +83,13 @@ input[type="text"] {
 
 footer {
     background-color: rgb(3, 31, 44);
-    /* Orange vif pour le pied de page */
     color: #fff;
     text-align: center;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: auto;
+    bottom: 0;
 }
 
 
