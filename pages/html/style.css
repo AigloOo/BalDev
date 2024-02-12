@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f1;
+    /* Fond légèrement orangé */
+    color: #333;
+}
+
+header {
+    background-color: rgb(3, 31, 44);
+    /* Orange vif pour l'en-tête */
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 0 0 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 500px;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.property-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.property-item:hover {
+    background-color: #ffe0b2;
+    /* Surbrillance orange clair au survol */
+}
+
+.property-item h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.property-item p {
+    margin: 0;
+    color: #666;
+}
+
+#propertyDetails {
+    background-color: #fff;
+    /* Fond blanc pour les détails */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(3, 31, 44);
+    /* Orange vif pour le pied de page */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+.resaux {
+    display: flex;
+    align-items: center;
+    color: #007bff;
+    text-decoration: none;
+}

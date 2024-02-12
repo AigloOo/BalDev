@@ -1,4 +1,3 @@
-## Mise en page pour GitHub
 
 **README.md**
 
@@ -13,10 +12,11 @@
     * Forker le repo GitHub
     * Créer une branche
     * Ajouter ou modifier les fichiers
+    * Localhos pas obliger 
     * Soumettre une pull request
 * **Pour plus d'informations:**
     * Site web BalDev: <URL non valide supprimée>
-    * Communauté BalDev sur Discord: <URL non valide supprimée>
+    * Communauté BalDev sur Discord (AigloCorp): <[ici](https://discord.gg/TX2RHZkk9x)>
     * Documentation du projet: <URL non valide supprimée>
 * **Licence:** MIT
 * **Remerciements:** Aux contributeurs
@@ -31,10 +31,6 @@
 * `README.md`: Fichier README du projet
 * `LICENSE`: Licence du projet
 
-**Branches:**
-
-* `master`: Branche principale du projet
-* `develop`: Branche de développement activ
 
 **Pull requests:**
 
