@@ -34,8 +34,7 @@
 **Branches:**
 
 * `master`: Branche principale du projet
-* `develop`: Branche de développement active
-* `<nom_langage>`: Branches pour chaque langage (ex: `francais`, `anglais`)
+* `develop`: Branche de développement activ
 
 **Pull requests:**
 
