@@ -30,9 +30,8 @@
 **Fichiers:**
 
 * `index.html`: Page d'accueil du site web
-* `styles.css`: Feuille de style CSS du site web
-* `script.js`: Script JavaScript du site web
-* `data.json`: Fichier JSON contenant les données des propriétés
+* `index.js`: Localhost
+* `pages`: Fichier des paga avec dasn `strage` le storage des prorpieter
 * `README.md`: Fichier README du projet
 * `LICENSE`: Licence du projet
 
