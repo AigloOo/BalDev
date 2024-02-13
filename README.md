@@ -31,7 +31,7 @@
 
 * `index.html`: Page d'accueil du site web
 * `index.js`: Localhost
-* `pages`: Fichier des paga avec dasn `strage` le storage des prorpieter
+* `pages`: Fichier des paga avec dans `strage` le storage des prorpieter
 * `README.md`: Fichier README du projet
 * `LICENSE`: Licence du projet
 
