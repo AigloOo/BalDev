@@ -1,14 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BalDev</title>
+    <title>BalDev - Choisissez un langage</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f9f6f1;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: rgb(3, 31, 44);
+            ;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: rgb(199, 221, 255);
+            ;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: rgb(14, 72, 99);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+        }
+
+        a:hover {
+            background-color: #0b325c;
+        }
+
+        .github-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .github-link a {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #212529;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .github-link a:hover {
+            background-color: #343a40;
+        }
+
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            a {
+                padding: 12px 24px;
+                font-size: 16px;
+            }
+
+            .github-link a {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <!-- rien pour l'instant -->
+    <header>
+        <h1>BalDev - Choisissez un langage</h1>
+    </header>
+    <div class="container">
+        <ul>
+            <li><a href="pages/html/index.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="javascript.html">JavaScript</a></li>
+            <!-- Ajoutez d'autres langages ici -->
+        </ul>
+        <div class="github-link">
+            <p>Pas trouvé le langage que vous cherchez ? Ajoutez-le en proposant une <a
+                    href="https://github.com/AigloOo/BalDev/pulls">pull request sur GitHub</a>.</p>
+        </div>
+    </div>
 </body>
 
 </html>
