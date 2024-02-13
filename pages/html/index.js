@@ -5,7 +5,7 @@ const propertyDetails = document.getElementById('propertyDetails');
 
 
 
-fetch('/storage.json')
+fetch('storage.json')
     .then(response => response.json())
     .then(properties => {
         function generatePropertyList(properties) {
