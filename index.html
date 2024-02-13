@@ -22,11 +22,9 @@
 
         header {
             background-color: rgb(3, 31, 44);
-            ;
             color: #fff;
             padding: 20px;
             text-align: center;
-
         }
 
         h1 {
@@ -40,7 +38,6 @@
             padding: 20px;
             border-radius: 15px;
             background-color: rgb(199, 221, 255);
-            ;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
@@ -89,6 +86,17 @@
             background-color: #343a40;
         }
 
+        .coming-soon {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .coming-soon p {
+            font-size: 24px;
+            color: #999;
+        }
+
         @media only screen and (max-width: 600px) {
             h1 {
                 font-size: 28px;
@@ -114,15 +122,32 @@
     <div class="container">
         <ul>
             <li><a href="pages/html/index.html">HTML</a></li>
-            <li><a href="css.html">CSS</a></li>
-            <li><a href="javascript.html">JavaScript</a></li>
+            <li><a href="#" onclick="showComingSoon('css')">CSS</a></li>
+            <li><a href="#" onclick="showComingSoon('javascript')">JavaScript</a></li>
             <!-- Ajoutez d'autres langages ici -->
         </ul>
+        <div class="coming-soon" id="css-coming-soon">
+            <p>Coming soon...</p>
+        </div>
+        <div class="coming-soon" id="javascript-coming-soon">
+            <p>Coming soon...</p>
+        </div>
         <div class="github-link">
             <p>Pas trouvé le langage que vous cherchez ? Ajoutez-le en proposant une <a
                     href="https://github.com/AigloOo/BalDev/pulls">pull request sur GitHub</a>.</p>
         </div>
     </div>
+
+    <script>
+        function showComingSoon(language) {
+            var comingSoonDiv = document.getElementById(language + '-coming-soon');
+            if (comingSoonDiv.style.display === 'none') {
+                comingSoonDiv.style.display = 'block';
+            } else {
+                comingSoonDiv.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 
 </html>
