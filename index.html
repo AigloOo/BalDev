@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,24 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     body {
-      background-color: #f9f6f1;
+      background-color: #f5f5f5;
       color: #333;
       line-height: 1.6;
     }
 
     header {
-      background-color: rgb(3, 31, 44);
+      background-color: #1f1f1f;
       color: #fff;
       padding: 20px;
       text-align: center;
     }
 
     h1 {
-      font-size: 36px;
+      font-size: 2rem;
       margin-bottom: 20px;
     }
 
@@ -37,14 +38,15 @@
 
     section {
       padding: 20px;
-      border-radius: 15px;
+      border-radius: 10px;
       background-color: #fff;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
-      font-size: 24px;
+      font-size: 1.5rem;
       margin-bottom: 10px;
+      color: #333;
     }
 
     ul {
@@ -60,7 +62,7 @@
     a {
       display: inline-block;
       padding: 15px 30px;
-      background-color: rgb(14, 72, 99);
+      background-color: #4CAF50;
       color: #fff;
       text-decoration: none;
       border-radius: 5px;
@@ -68,18 +70,17 @@
     }
 
     a:hover {
-      background-color: #0b325c;
+      background-color: #45a049;
     }
 
     .a-venir ul {
-      background-color: #f9f6f1;
-      border-radius: 15px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
       padding: 20px;
     }
 
     footer {
-      background-color: rgb(3, 31, 44);
-      color: #fff;
+      color: #2d2d2d;
       padding: 20px;
       text-align: center;
     }
@@ -89,26 +90,120 @@
     }
 
     footer a {
-      color: #fff;
-      text-decoration: underline;
+      color: #121212;
+      text-decoration: none;
+      transition: color 0.3s ease;
     }
 
+    footer a:hover {
+      color: #ddd;
+    }
+
+    .langages,
+    .a-venir {
+      margin-bottom: 30px;
+    }
+
+    .langages h2,
+    .a-venir h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .langages ul,
+    .a-venir ul {
+      padding: 0;
+    }
+
+    .langages li,
+    .a-venir li {
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    .langages a,
+    .a-venir a {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 3px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .langages a:hover,
+    .a-venir a:hover {
+      background-color: #45a049;
+    }
+
+    /* Styles pour les médias mobiles */
     @media only screen and (max-width: 600px) {
       h1 {
-        font-size: 28px;
-      }
-
-      a {
-        padding: 12px 24px;
-        font-size: 16px;
+        font-size: 1.5rem;
       }
 
       h2 {
-        font-size: 20px;
+        font-size: 1.25rem;
       }
+
+      a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+      }
+    }
+
+    .popup {
+      position: fixed;
+      bottom: 20px;
+      /* distance depuis le bas */
+      right: 20px;
+      /* distance depuis la droite */
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      padding: 10px;
+      display: none;
+      z-index: 1000;
+      animation: fadeInOut 0.5s ease;
+    }
+
+    @keyframes fadeInOut {
+      0% {
+        opacity: 0;
+      }
+
+      25% {
+        opacity: 0.25;
+      }
+
+      50% {
+        opacity: 0.5;
+      }
+
+      75% {
+        opacity: 0.75;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .popup-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .popup-close {
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+      color: #555;
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>BalDev - Choisissez un langage</h1>
@@ -118,24 +213,48 @@
       <h2>Langages disponibles</h2>
       <ul>
         <li><a href="pages/html/index.html">HTML</a></li>
-        </ul>
+      </ul>
     </section>
     <section class="a-venir">
       <h2>En cours de développement</h2>
       <ul>
         <li>CSS</li>
         <li>JavaScript</li>
-        <li>php</li>
-        <li>typescript</li>
-        <li>scss</li>
-        </ul>
+        <li>PHP</li>
+        <li>TypeScript</li>
+        <li>SCSS</li>
+      </ul>
     </section>
   </main>
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <p>Si vous souhaitez ajouter des fonctionnalités, vous pouvez le faire sur GitHub.</p>
+      <span class="popup-close" onclick="closePopup()" style="font-weight: bold;"> X</span>
+    </div>
+  </div>
+
   <footer>
     <p>
       Ce site web est réalisé par AigloOo.
       <a href="https://github.com/AigloOo/BalDev">Github</a>
     </p>
   </footer>
+  <script>
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
+
+
+    function showPopup() {
+      var popup = document.getElementById('popup');
+      popup.style.display = 'block';
+      popup.classList.add('fadeInOut');
+    }
+
+    setTimeout(function () {
+      showPopup();
+    }, 1000);
+  </script>
 </body>
+
 </html>
