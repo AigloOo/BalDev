@@ -2,19 +2,19 @@
     {
         "name": "id",
         "description": "Identifiant unique de l'élément.",
-        "example": "<code><div id='monElement'></div></code>",
+        "example": "&lt;<div id='monElement'></div&gt;",
         "exampleDescription": "Cet exemple crée un élément div avec l'identifiant 'monElement'."
     },
     {
         "name": "class",
         "description": "Attribut de classe pour le CSS.",
-        "example": "<code><div class='mon-style'></div></code>",
+        "example": "&lt;<div class='mon-style'></div&gt;",
         "exampleDescription": "Cet exemple crée un élément div avec la classe 'mon-style'."
     },
     {
         "name": "style",
         "description": "Styles CSS en ligne pour l'élément.",
-        "example": "<code><div style='color: red; font-size: 18px;'></div></code>",
+        "example": "&lt;div style='color: red; font-size: 18px;'></div&gt;",
         "exampleDescription": "Cet exemple crée un élément div avec le texte en rouge et une taille de police de 18 pixels."
     },
     {
@@ -26,13 +26,13 @@
     {
         "name": "src",
         "description": "URL de la source de l'image.",
-        "example": "<code><img src='image.jpg' alt='Description de l'image'></code>",
+        "example": "&lt;<img src='image.jpg' alt='Description de l'image'&gt;",
         "exampleDescription": "Cet exemple affiche une image nommée image.jpg avec une description alternative."
     },
     {
         "name": "alt",
         "description": "Texte alternatif pour les images.",
-        "example": "<code><img src='image.jpg' alt='Description de l'image'></code>",
+        "example": "<code><img src='image.jpg' alt='Description de l'image'&gt;",
         "exampleDescription": "Cet exemple affiche une image nommée image.jpg avec une description alternative."
     },
     {
@@ -140,7 +140,7 @@
     {
         "name": "autoplay",
         "description": "Indique si la lecture automatique est activée pour les éléments multimédias.",
-        "example": "<video src='video.mp4' autoplay></video>",
+        "example": "&lt;<video src='video.mp4' autoplay></video&gt;",
         "exampleDescription": "Cet exemple crée une vidéo qui démarre automatiquement la lecture dès que la vidéo est chargée."
     },
     {
@@ -152,7 +152,7 @@
     {
         "name": "loop",
         "description": "Indique si la lecture multimédia doit être en boucle.",
-        "example": "<video src='video.mp4' loop></video>",
+        "example": "&lt;<video src='video.mp4' loop></video&gt;",
         "exampleDescription": "Cet exemple crée une vidéo qui se lit en boucle."
     },
     {
