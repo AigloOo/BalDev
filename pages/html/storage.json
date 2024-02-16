@@ -2,19 +2,19 @@
     {
         "name": "id",
         "description": "Identifiant unique de l'élément.",
-        "example": "<div id='monElement'></div>",
+        "example": "<code><div id='monElement'></div></code>",
         "exampleDescription": "Cet exemple crée un élément div avec l'identifiant 'monElement'."
     },
     {
         "name": "class",
         "description": "Attribut de classe pour le CSS.",
-        "example": "<div class='mon-style'></div>",
+        "example": "<code><div class='mon-style'></div></code>",
         "exampleDescription": "Cet exemple crée un élément div avec la classe 'mon-style'."
     },
     {
         "name": "style",
         "description": "Styles CSS en ligne pour l'élément.",
-        "example": "<div style='color: red; font-size: 18px;'></div>",
+        "example": "<code><div style='color: red; font-size: 18px;'></div></code>",
         "exampleDescription": "Cet exemple crée un élément div avec le texte en rouge et une taille de police de 18 pixels."
     },
     {
@@ -26,13 +26,13 @@
     {
         "name": "src",
         "description": "URL de la source de l'image.",
-        "example": "<img src='image.jpg' alt='Description de l'image'>",
+        "example": "<code><img src='image.jpg' alt='Description de l'image'></code>",
         "exampleDescription": "Cet exemple affiche une image nommée image.jpg avec une description alternative."
     },
     {
         "name": "alt",
         "description": "Texte alternatif pour les images.",
-        "example": "<img src='image.jpg' alt='Description de l'image'>",
+        "example": "<code><img src='image.jpg' alt='Description de l'image'></code>",
         "exampleDescription": "Cet exemple affiche une image nommée image.jpg avec une description alternative."
     },
     {
