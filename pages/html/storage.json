@@ -2,19 +2,19 @@
     {
         "name": "id",
         "description": "Identifiant unique de l'élément.",
-        "example": "&lt;<div id='monElement'></div&gt;",
+        "example": "&lt;div id='monElement'></div&gt;",
         "exampleDescription": "Cet exemple crée un élément div avec l'identifiant 'monElement'."
     },
     {
         "name": "class",
         "description": "Attribut de classe pour le CSS.",
-        "example": "&lt;<div class='mon-style'></div&gt;",
+        "example": "&lt;div class='mon-style'></div&gt;",
         "exampleDescription": "Cet exemple crée un élément div avec la classe 'mon-style'."
     },
     {
         "name": "style",
         "description": "Styles CSS en ligne pour l'élément.",
-        "example": "&lt;div style='color: red; font-size: 18px;'></div&gt;",
+        "example": "&lt;div style='color: red; font-size: 18px; height: 5px></div&gt;",
         "exampleDescription": "Cet exemple crée un élément div avec le texte en rouge et une taille de police de 18 pixels."
     },
     {
@@ -26,13 +26,13 @@
     {
         "name": "src",
         "description": "URL de la source de l'image.",
-        "example": "&lt;<img src='image.jpg' alt='Description de l'image'&gt;",
+        "example": "&ltimg src='image.jpg' alt='Description de l'image&gt;",
         "exampleDescription": "Cet exemple affiche une image nommée image.jpg avec une description alternative."
     },
     {
         "name": "alt",
         "description": "Texte alternatif pour les images.",
-        "example": "<code><img src='image.jpg' alt='Description de l'image'&gt;",
+        "example": "<code><img src='image.jpg alt=`Description de l'image'&gt;",
         "exampleDescription": "Cet exemple affiche une image nommée image.jpg avec une description alternative."
     },
     {
@@ -170,49 +170,49 @@
     {
         "name": "target",
         "description": "Indique où ou comment ouvrir la destination du lien.",
-        "example": "<a href='https://www.example.com' target='_blank'>Lien vers example.com</a>",
+        "example": "&lt;a href='https://www.example.com' target='_blank'>Lien vers example.com</a>",
         "exampleDescription": "Cet exemple crée un lien vers le site example.com qui s'ouvre dans un nouvel onglet."
     },
     {
         "name": "rel",
         "description": "Indique la relation entre le document courant et la ressource liée.",
-        "example": "<a href='styles.css' rel='stylesheet'>Feuille de style</a>",
+        "example": "&lt;a href='styles.css' rel='stylesheet'>Feuille de style</a>",
         "exampleDescription": "Cet exemple lie la feuille de style styles.css au document courant."
     },
     {
         "name": "charset",
         "description": "Définit l'encodage de caractères pour le document HTML.",
-        "example": "<meta charset='UTF-8'>",
+        "example": "&lt;meta charset='UTF-8'>",
         "exampleDescription": "Cet exemple définit l'encodage des caractères du document HTML en UTF-8."
     },
     {
         "name": "lang",
         "description": "Indique la langue principale du contenu de la page.",
-        "example": "<html lang='fr'>",
+        "example": "&lt;html lang='fr'>",
         "exampleDescription": "Cet exemple indique que le contenu de la page est en français."
     },
     {
         "name": "content",
         "description": "Définit le contenu de la balise meta.",
-        "example": "<meta name='description' content='Ceci est une description'>",
+        "example": "&lt;meta name='description' content='Ceci est une description'>",
         "exampleDescription": "Cet exemple définit une description pour le moteur de recherche."
     },
     {
         "name": "http-equiv",
         "description": "Fournit une information HTTP-EQUIV au serveur Web.",
-        "example": "<meta http-equiv='refresh' content='30'>",
+        "example": "&lt;meta http-equiv='refresh' content='[temps souhaité en secondes]'>",
         "exampleDescription": "Cet exemple actualise la page toutes les 30 secondes."
     },
     {
         "name": "name",
         "description": "Spécifie le nom de la balise meta.",
-        "example": "<meta name='keywords' content='HTML, CSS, JavaScript'>",
+        "example": "&lt;meta name='keywords' content='HTML, CSS, JavaScript'>",
         "exampleDescription": "Cet exemple définit des mots-clés pour le moteur de recherche."
     },
     {
         "name": "autocomplete",
         "description": "Indique si l'autocomplétion des formulaires est activée ou désactivée.",
-        "example": "<form autocomplete='off'></form>",
+        "example": "&lt;form autocomplete='off'></form&lt",
         "exampleDescription": "Cet exemple désactive l'autocomplétion pour le formulaire."
     }
 ]
