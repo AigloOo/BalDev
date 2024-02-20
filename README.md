@@ -1,8 +1,8 @@
 
 
 
-* **Titre:** BalDev : Un site web pour explorer les propriétés HTML, CSS et plus encore !
-* **Description:** BalDev est un projet open source qui vise à créer une plateforme collaborative pour explorer et apprendre les propriétés des langages web tels que HTML, CSS et bientôt d'autres.
+* **BalDev : Un site web pour explorer les propriétés HTML, CSS et plus encore !**
+* **Description: BalDev est un projet open source qui vise à créer une plateforme collaborative pour explorer et apprendre les propriétés des langages web tels que HTML, CSS et bientôt d'autres.**
 
 # Comment faire un push sur GitHub (ajouter du code au project).
 
